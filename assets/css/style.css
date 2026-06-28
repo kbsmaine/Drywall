@@ -55,7 +55,7 @@ img { max-width: 100%; display: block; }
   padding: 8px; 
   font-size: 1.6rem;
   position: relative;
-  left: -15px; /* positive = right, negative = left */
+  left: -25px; /* positive = right, negative = left */
 }
 
 .button {
