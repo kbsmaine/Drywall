@@ -47,7 +47,16 @@ img { max-width: 100%; display: block; }
 .site-nav a:hover, .site-nav a.active { color: #fff; }
 .header-cta { display: flex; align-items: center; gap: 15px; }
 .phone-chip { font-size: .88rem; color: rgba(255,255,255,.82); font-weight: 700; }
-.menu-toggle { display: none; border: 0; background: transparent; color: #fff; padding: 8px; font-size: 1.6rem; }
+.menu-toggle { 
+  display: none; 
+  border: 0; 
+  background: transparent; 
+  color: #fff; 
+  padding: 8px; 
+  font-size: 1.6rem;
+  position: relative;
+  left: 15px; /* positive = right, negative = left */
+}
 
 .button {
   display: inline-flex; align-items: center; justify-content: center; gap: .55rem;
