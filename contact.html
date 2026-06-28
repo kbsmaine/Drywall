@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Request a drywall quote from J.P. Burnham Drywall in Buxton, Maine.">
+  <title>Request a Quote | J.P. Burnham Drywall</title><link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="J.P. Burnham Drywall home">
+      <img src="assets/images/jp-burnham-drywall-logo.png" alt="J.P. Burnham Drywall logo">
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a class="phone-chip" data-phone href="#"></a>
+      <a class="button button-primary" href="contact.html">Request a Quote</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero" style="background-image:linear-gradient(90deg, rgba(7,14,8,.92), rgba(7,14,8,.47)),url('https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1800&q=84')"><div class="container"><span class="eyebrow">Contact</span><h1 class="display">Tell us about your project.</h1><p class="lead">Share the basic details and a good contact method. We will follow up about the scope, timing, and next steps.</p></div></section>
+  <section class="section"><div class="container contact-grid">
+    <aside class="contact-card"><span class="eyebrow">J.P. Burnham Drywall</span><h2 class="display" style="margin-top:14px">Request a quote</h2><p>For the fastest response, include your location, the type of drywall work you need, the approximate size of the project, and your ideal timeline.</p>
+      <a class="contact-method" data-phone href="#"><span>Call</span><strong data-phone></strong></a>
+      <a class="contact-method" data-email href="#"><span>Email</span><strong data-email></strong></a>
+      <a class="contact-method" data-map href="#" target="_blank" rel="noopener"><span>Service area</span><strong><span data-service-area style="display:inline;color:#fff;letter-spacing:0;text-transform:none;font-size:1.04rem"></span></strong></a>
+    </aside>
+    <div class="quote-form">
+      <span class="eyebrow">Quote request form</span>
+      <h2 class="display" style="margin:12px 0 25px">Let’s get started.</h2>
+      <form name="quote-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="thank-you.html" data-quote-form>
+        <input type="hidden" name="form-name" value="quote-request">
+        <p style="display:none"><label>Do not fill this out: <input name="bot-field"></label></p>
+        <div class="form-grid">
+          <div class="form-row"><label for="name">Your name *</label><input id="name" name="name" autocomplete="name" required></div>
+          <div class="form-row"><label for="phone">Phone number *</label><input id="phone" name="phone" type="tel" autocomplete="tel" required></div>
+          <div class="form-row"><label for="email">Email address *</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+          <div class="form-row"><label for="location">Project town / city *</label><input id="location" name="location" required></div>
+          <div class="form-row full"><label for="service">What type of work do you need?</label><select id="service" name="service"><option>Residential drywall</option><option>Commercial drywall</option><option>Remodel / addition</option><option>Repair / patch work</option><option>Finishing / texture work</option><option>Not sure yet</option></select></div>
+          <div class="form-row full"><label for="details">Project details *</label><textarea id="details" name="details" placeholder="Tell us about the work, approximate room/project size, timeline, and anything else that helps." required></textarea></div>
+        </div>
+        <button class="button button-primary" type="submit" style="margin-top:22px">Send Quote Request <span aria-hidden="true">→</span></button>
+        <p class="form-note">This form is already set up for Netlify hosting. See the README for setup instructions and contact-detail updates.</p>
+        <div class="notice" role="status"></div>
+      </form>
+    </div>
+  </div></section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img class="footer-logo" src="assets/images/jp-burnham-drywall-logo.png" alt="J.P. Burnham Drywall">
+      <p class="footer-blurb">Quality drywall work for homes, renovations, and commercial spaces across <span data-service-area></span>.</p>
+    </div>
+    <div>
+      <h3 class="footer-title">Explore</h3>
+      <div class="footer-links">
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Request a Quote</a>
+      </div>
+    </div>
+    <div>
+      <h3 class="footer-title">Get in touch</h3>
+      <div class="footer-links">
+        <a data-phone href="#"></a>
+        <a data-email href="#"></a>
+        <a data-map href="#" target="_blank" rel="noopener">Buxton, Maine</a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span data-current-year></span> <span data-business-name></span>. All rights reserved.</span>
+    <span>Built for reliable workmanship and straightforward communication.</span>
+  </div>
+</footer>
+<script src="assets/js/site-config.js"></script>
+<script src="assets/js/site.js"></script>
+
+</body></html>
