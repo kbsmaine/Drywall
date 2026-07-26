@@ -222,7 +222,7 @@ p { margin: 0; }
   .topbar .container { justify-content:center; text-align:center; }
   .topbar span:last-child { display:none; }
   .nav-wrap { min-height:78px; }
-  .brand img { width:56px; height:52px; }
+  .brand img { width:80px; height:80px; }
   .brand-text strong { font-size:.96rem; }
   .brand-text span { font-size:.61rem; }
   .site-nav { inset:114px 14px auto; }
